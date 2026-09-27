@@ -17,7 +17,7 @@ Or from the Omarchy menu: **Install → Style → Theme**, then paste the URL.
 - **Palette**: Aura's signature violet `#a277ff` as the accent, with mint `#61ffca`, pink `#f694ff`, orange `#ffca85` and sky blue `#82e2ff` on the near-black `#15141b`. Aura's own terminal ports repeat several colours (blue, green and cyan are all mint); here every ANSI role gets a distinct colour, always from the official palette.
 - **Softer window borders**: the focused window gets a muted violet (`#4d466e`) from the same palette instead of the full-saturation accent, which is loud around every window.
 - **Six wallpapers**, 2560×1600:
-  - `01`–`04`: aurora, geometry, fluid and night — original wallpapers made for this theme, generated with AI and upscaled with Real-ESRGAN;
+  - `01`–`04`: night, aurora, geometry and fluid — original wallpapers made for this theme, generated with AI and upscaled with Real-ESRGAN;
   - `05`–`06`: two of the official Aura wallpapers.
 - **Icons**: Yaru-purple.
 
