@@ -1,0 +1,43 @@
+# Aura Dark for Omarchy, from the official palette by Dalton Menezes
+# (github.com/daltonmenezes/aura-theme, src/core/colors/schemes/).
+mode = "dark"
+
+accent = "#a277ff"             # violet, Aura's signature colour
+selection = "#29263c"          # primary-selection without alpha
+muted = "#525156"              # inactive elements
+
+background = "#15141b"
+dark_background = "#110f18"
+darker_background = "#0f0f0f"
+lighter_background = "#2d2b38"
+
+foreground = "#edecee"
+dark_foreground = "#6d6d6d"    # Aura's comment colour
+light_foreground = "#cdccce"
+bright_foreground = "#edecee"
+
+# Aura has a single warm tone, so yellow and orange match. The official
+# terminal ports repeat colours (blue = green = mint); here every ANSI role
+# gets a distinct colour, always taken from the official palette.
+red = "#ff6767"
+yellow = "#ffca85"
+orange = "#ffca85"
+green = "#61ffca"              # mint
+cyan = "#82e2ff"
+blue = "#a277ff"
+magenta = "#f694ff"            # pink
+brown = "#a19c77"
+
+bright_red = "#ff6767"
+bright_yellow = "#ffca85"
+bright_green = "#9dff65"       # lime, Aura's fourth accent
+bright_cyan = "#82e2ff"
+bright_blue = "#a277ff"
+bright_magenta = "#f694ff"
+
+# Window borders. The full-saturation accent is loud around every window, so
+# the focused one gets a muted violet from the same palette. Kept here, not in
+# a hyprland.lua, because Omarchy drops .lua files from themes installed from a
+# repo, while these keys go through its own templates.
+hyprland_active_border = "#4d466e"
+hyprland_inactive_border = "#2d2b38"
